@@ -54,10 +54,10 @@
         android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
-    <!-- Matrixx maintainer  -->
+    <!-- GazaOS maintainer  -->
     <Preference
-        android:key="matrixx_maintainer"
-        android:title="@string/matrixx_maintainer_title"
+        android:key="GazaOS_maintainer"
+        android:title="@string/GazaOS_maintainer_title"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="false"
         android:selectable="false"
