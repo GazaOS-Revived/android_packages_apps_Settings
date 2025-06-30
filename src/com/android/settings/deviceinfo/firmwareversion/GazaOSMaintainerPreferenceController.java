@@ -25,11 +25,11 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class MatrixxMaintainerPreferenceController extends BasePreferenceController {
+public class GazaOSMaintainerPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "MatrixxMaintainerPreferenceController";
+    private static final String TAG = "GazaOSMaintainerPreferenceController";
 
-    public MatrixxMaintainerPreferenceController(Context context, String key) {
+    public GazaOSMaintainerPreferenceController(Context context, String key) {
         super(context, key);
     }
 
@@ -38,7 +38,7 @@ public class MatrixxMaintainerPreferenceController extends BasePreferenceControl
     }
 
     public CharSequence getSummary() {
-        String maintainer = mContext.getResources().getString(R.string.matrixx_maintainer);
+        String maintainer = mContext.getResources().getString(R.string.GazaOS_maintainer);
         return maintainer;
     }
 }
